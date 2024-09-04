@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        <h1>Au-migo</h1>
+        <p>Conectando você a passeadores de cães confiáveis.</p>
       </header>
+      <main className="main-content">
+        <section className="section">
+          <h2>O Problema</h2>
+          <p>Na correria do dia a dia, muitos donos de cães têm dificuldade em encontrar passeadores confiáveis e disponíveis. A busca por um serviço de qualidade pode ser desafiadora, especialmente quando é necessário de última hora.</p>
+        </section>
+        <section className="section">
+          <h2>A Solução</h2>
+          <p>Com o Au-migo, você encontra passeadores de cães de confiança de maneira rápida e prática. Com nosso aplicativo, você pode:</p>
+          <ul>
+            <li>Buscar passeadores disponíveis em tempo real na sua área.</li>
+            <li>Agendar passeios com flexibilidade, seja antecipadamente ou de última hora.</li>
+            <li>Acompanhar o progresso do passeio em tempo real para garantir a segurança do seu pet.</li>
+            <li>Escolher passeadores com base em avaliações e feedback de outros usuários.</li>
+          </ul>
+        </section>
+      </main>
+      
     </div>
   );
 }
 
 export default App;
+
+
