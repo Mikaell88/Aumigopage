@@ -1,4 +1,4 @@
-/* Estilo global */
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -10,7 +10,14 @@ body {
   min-height: 100vh;
 }
 
-/* Estilos do cabeçalho */
+.img {
+  width: 200px;     
+  height: auto;      
+  border-radius: 20%; 
+ 
+}
+
+
 .header {
   background: linear-gradient(to right, #d67e2c, #d67e2c);
   color: white;
@@ -30,7 +37,7 @@ body {
   font-size: 1.2rem;
 }
 
-/* Estilos do conteúdo principal */
+
 .main-content {
   flex: 1;
   padding: 20px;
@@ -88,7 +95,7 @@ body {
   background: linear-gradient(to right, #d67e2c, #d67e2c);
 }
 
-/* Estilos do rodapé */
+
 .footer {
   background-color: #333;
   color: white;

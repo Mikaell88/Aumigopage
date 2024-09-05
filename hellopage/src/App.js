@@ -7,6 +7,9 @@ function App() {
       <header className="header">
         <h1>Au-migo</h1>
         <p>Conectando você a passeadores de cães confiáveis.</p>
+
+         <img src={`${process.env.PUBLIC_URL}/Pet1.png`} alt="Minha Imagem" className="img" />
+
       </header>
       <main className="main-content">
         <section className="section">
