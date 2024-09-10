@@ -7,9 +7,7 @@ function App() {
       <header className="header">
         <h1>Au-migo</h1>
         <p>Conectando você a passeadores de cães confiáveis.</p>
-
-         <img src={`${process.env.PUBLIC_URL}/Pet1.png`} alt="Minha Imagem" className="img" />
-
+        <img src={`${process.env.PUBLIC_URL}/Pet1.png`} alt="Minha Imagem" className="img" />
       </header>
       <main className="main-content">
         <section className="section">
@@ -26,12 +24,22 @@ function App() {
             <li>Escolher passeadores com base em avaliações e feedback de outros usuários.</li>
           </ul>
         </section>
+        <section className="section">
+          <h2>Colaboradores</h2>
+          <ul>
+            <li>Mikael Sousa Bueno</li>
+            <li>Leonardo Peron Krause</li>
+            <li>Willian Scheuermann</li>
+            <li>Giordano Cerutti Cassini</li>
+            <li>Riskala Tedoldi</li>
+          </ul>
+        </section>
       </main>
-      
     </div>
   );
 }
 
 export default App;
+
 
 
