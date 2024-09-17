@@ -27,11 +27,6 @@ function App() {
         <section className="section">
           <h2>Colaboradores</h2>
           <ul>
-          <li>Mikael Sousa Bueno</li>
-            <li>Leonardo Peron Krause</li>
-            <li>Willian Scheuermann</li>
-            <li>Giordano Cerutti Cassini</li>
-            <li>Riskala Tedoldi</li>
             <li>Mikael Sousa Bueno</li>
             <li>Leonardo Peron Krause</li>
             <li>Willian Scheuermann</li>
